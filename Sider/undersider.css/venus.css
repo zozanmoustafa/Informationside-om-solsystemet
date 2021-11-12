@@ -48,3 +48,21 @@
   background-color: yellow;
   color: black;
 }
+
+.figure-1 h1{
+  font-size: 60px;
+  font-family: sans-serif;
+}
+
+.figure-1 p{
+  font-size: 25px;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  line-height: 55px;
+}
+
+.figure-1 img{
+  width: 35em;
+  height: 30em;
+  border: 5px solid rgb(187, 94, 40);
+}

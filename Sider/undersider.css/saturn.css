@@ -1,50 +1,68 @@
 .bg-img {
 
-    background-image: url("../Billeder/Earth-navbar.jpg");
-    max-width: 1600px;
-    min-height: 150px;
+  background-image: url("../Billeder/saturn-background.jpg");
   
-   
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  max-width: 1600px;
+  min-height: 2000px;
+
+ 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+  position: relative;
+}
   
-  
-    position: relative;
-  }
-  
-  
-  .container {
-    position: absolute;
-    margin: 20px;
-    width: auto;
-  }
-  
-  
-  .topnav {
-    text-align: center;
-    overflow: hidden;
-    background: rgba(255, 255, 255, 0.6);
-    border-radius: 30px;
-    border: 8px solid black;
-    margin: auto;
-    padding: 10px;
-  }
-  
-  
-  .topnav a {
-    float: left;
-    color: black;
-    text-align: center;
-    padding: 14px 42px;
-    text-decoration: none;
-    font-size: 25px;
-    font-weight: bolder;
-    font-family: sans-serif;
-  }
-  
-  .topnav a:hover {
-    background-color: yellow;
-    color: black;
-  }
+.container {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+}
+
+
+.topnav {
+  text-align: center;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 30px;
+  border: 8px solid black;
+  margin: auto;
+  padding: 10px;
+}
+
+
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 42px;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bolder;
+  font-family: sans-serif;
+}
+
+.topnav a:hover {
+  background-color: yellow;
+  color: black;
+}
+
+.figure-1 h1{
+  font-size: 60px;
+  font-family: sans-serif;
+  color: white;
+}
+
+.figure-1 p{
+  font-size: 25px;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  line-height: 55px;
+  color: white;
+}
+
+.empty-space {
+  padding: 110px;
+}

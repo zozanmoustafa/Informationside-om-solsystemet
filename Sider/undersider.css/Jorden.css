@@ -2,7 +2,7 @@
 
   background-image: url("../Billeder/Earth-navbar.jpg");
   max-width: 1600px;
-  min-height: 150px;
+  min-height: 180px;
 
  
   background-attachment: fixed;
@@ -49,3 +49,57 @@
   color: black;
 }
 
+#grid {
+  margin: 60px;
+  max-width: 1630px;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  height: 100%;
+  color: black;
+  background-color: white;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: minmax(250px, 600px) minmax(250px, 600px) minmax(
+      250px,
+      600px
+    );
+  grid-template-areas:
+    "box1 box2"
+    "box3 box4"
+    "box5 box6";
+}
+
+#grid p {
+  padding: 10px;
+  text-align: justify;
+  font-size: 25px;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  line-height: 55px;
+}
+
+#grid h1 {
+  padding: 15px;
+  color: black;
+  font-size: 30px;
+  font-family: sans-serif;
+  letter-spacing: 3px;
+  line-height: 55px;
+  border: 5px solid #11f7f7;
+}
+
+#grid img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+#box1 {
+  grid-area: box1;
+}
+
+#box2 {
+  grid-area: box2;
+}
